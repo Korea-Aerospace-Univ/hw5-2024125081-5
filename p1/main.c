@@ -24,7 +24,7 @@ int main(void) {
     }
     
     if (found == 0) {                          //모두 순회하고도 경우의 수를 만족하지 않으면
-        printf("none");                        //none 출력
+        printf("none\n");                        //none 출력
     }
     
      return 0;   
