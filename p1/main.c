@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int N;                            //입력받을 금액
+    int N = 0;                            //입력받을 금액
     bool found = false;             //조건을 만족하는 조합을 찾았는지에 대한 bool형
     
     scanf("%d", &N);                  //금액을 나타내는 정수형 N 입력
